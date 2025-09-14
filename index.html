@@ -284,37 +284,24 @@
                 
                 <div class="bg-white/10 backdrop-blur-sm p-8 rounded-2xl">
                     <h3 class="text-2xl font-semibold mb-6">Quick Inquiry</h3>
-                    <form action="https://formsubmit.co/rkcreationstudio@gmail.com" method="POST" class="space-y-4">
-    <input type="text" name="name" placeholder="Full Name" required class="w-full p-3 border border-gray-300 rounded-lg">
-    <input type="email" name="email" placeholder="Email Address" required class="w-full p-3 border border-gray-300 rounded-lg">
-    <input type="tel" name="phone" placeholder="Phone Number" required class="w-full p-3 border border-gray-300 rounded-lg">
-    
-    <select name="service" required class="w-full p-3 border border-gray-300 rounded-lg">
-        <option value="">Select Service Type</option>
-        <option value="portrait">Portrait Photography</option>
-        <option value="wedding">Wedding Photography</option>
-        <option value="newborn">Newborn & Maternity</option>
-        <option value="commercial">Commercial Photography</option>
-        <option value="event">Event Photography</option>
-        <option value="creative">Creative Shoots</option>
-    </select>
-
-    <input type="date" name="date" required class="w-full p-3 border border-gray-300 rounded-lg">
-    <input type="time" name="time" required class="w-full p-3 border border-gray-300 rounded-lg">
-    
-    <textarea name="message" placeholder="Special Requests or Notes" rows="3" class="w-full p-3 border border-gray-300 rounded-lg"></textarea>
-
-    <!-- Optional: Prevent spam CAPTCHA -->
-    <input type="hidden" name="_captcha" value="false">
-
-    <!-- Optional: Redirect after submit -->
-    <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html">
-
-    <button type="submit" class="w-full bg-purple-600 text-white py-3 rounded-lg font-semibold hover:bg-purple-700 transition-colors">
-        Confirm Booking
-    </button>
-</form>
-
+                    <form class="space-y-4">
+                        <input type="text" placeholder="Your Name" class="w-full p-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/70">
+                        <input type="email" placeholder="Your Email" class="w-full p-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/70">
+                        <input type="tel" placeholder="Your Phone" class="w-full p-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/70">
+                        <select class="w-full p-3 rounded-lg bg-white/10 border border-white/20 text-white">
+                            <option value="">Select Service</option>
+                            <option value="portrait">Portrait Photography</option>
+                            <option value="wedding">Wedding Photography</option>
+                            <option value="newborn">Newborn & Maternity</option>
+                            <option value="commercial">Commercial Photography</option>
+                            <option value="event">Event Photography</option>
+                            <option value="creative">Creative Shoots</option>
+                        </select>
+                        <textarea placeholder="Your Message" rows="4" class="w-full p-3 rounded-lg bg-white/10 border border-white/20 text-white placeholder-white/70"></textarea>
+                        <button type="submit" class="w-full bg-white text-purple-600 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+                            Send Inquiry
+                        </button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -453,8 +440,6 @@
     </script>
 </body>
 </html>
-
-
 
 
 
