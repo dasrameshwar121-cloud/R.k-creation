@@ -1,62 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>R.K Creation Studio</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-      color: #333;
-      background-color: #f9f9f9;
-    }
-    header {
-      background-color: #444;
-      color: #fff;
-      padding: 20px;
-      text-align: center;
-    }
-    h1, h2 {
-      margin: 10px 0;
-    }
-    .container {
-      padding: 20px;
-      max-width: 960px;
-      margin: auto;
-    }
-    iframe {
-      width: 100%;
-      height: 600px;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R.K Creation - Professional Photography Studio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@300;400;500;600&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+        }
+        
+        .playfair {
+            font-family: 'Playfair Display', serif;
+        }
+        
+        .hero-gradient {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .booking-gradient {
+            background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+        }
+        
+        .gallery-item {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .gallery-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+        
+        .modal {
+            transition: opacity 0.3s ease;
+        }
+    </style>
 </head>
-<body>
-  <header>
-    <h1>R.K Creation Studio</h1>
-    <p>Explore our bookings and database</p>
-  </header>
-
-  <div class="container">
-    <h2>Our Google Sheet Database</h2>
-    <iframe
-      src="YOUR_GOOGLE_SHEET_LINK"
-      allowfullscreen>
-    </iframe>
-  </div>
-</body>
-</html>
-
-<iframe 
-  src="https://docs.google.com/spreadsheets/d/e/2PACX-1vR4s5e85Eb13FeLsDmDyM4EBuCkOsCtwonm-8to_3b-jSm_AjxDgGZRjqWbOB7zHnM_5Cf1CVhX5AZP/pubhtml" 
-  width="100%" 
-  height="600"
-  style="border:1px solid #ccc; border-radius:10px;">
-</iframe>
-
+<body class="bg-white text-gray-800">
     <!-- Navigation -->
     <nav class="fixed w-full bg-white/95 backdrop-blur-sm shadow-lg z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -126,7 +110,7 @@
                     </div>
                     <h3 class="text-2xl font-semibold mb-4">Wedding Photography</h3>
                     <p class="text-gray-600 mb-4">Capture your special day with beautiful, timeless wedding photography.</p>
-                    <span class="text-2xl font-bold text-pink-600">From ₹25000</span>
+                    <span class="text-2xl font-bold text-pink-600">From ₹15,000-20,000</span>
                 </div>
                 
                 <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
@@ -153,7 +137,7 @@
                     </div>
                     <h3 class="text-2xl font-semibold mb-4">Event Photography</h3>
                     <p class="text-gray-600 mb-4">Corporate events, birthdays, and special occasions captured professionally.</p>
-                    <span class="text-2xl font-bold text-orange-600">From ₹15000</span>
+                    <span class="text-2xl font-bold text-orange-600">From ₹10000</span>
                 </div>
                 
                 <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-xl transition-shadow">
@@ -162,7 +146,7 @@
                     </div>
                     <h3 class="text-2xl font-semibold mb-4">Creative & Concept Shoots</h3>
                     <p class="text-gray-600 mb-4">Unique, artistic photography sessions for creative projects and portfolios.</p>
-                    <span class="text-2xl font-bold text-red-600">From ₹12000</span>
+                    <span class="text-2xl font-bold text-red-600">From ₹7000</span>
                 </div>
             </div>
         </div>
@@ -440,9 +424,4 @@
     </script>
 </body>
 </html>
-
-
-
-
-
-
+ 
